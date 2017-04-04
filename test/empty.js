@@ -3,7 +3,7 @@
  * Created by JParreir on 26-12-2015.
  */
 
-
+"use strict";
 
 const nodePath = require("path");
 const nodeOs = require("os");
