@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/n3okill/enfs-promise.svg)](https://travis-ci.org/n3okill/enfs-promise)
-[![Build status](https://ci.appveyor.com/api/projects/status/4vr9led0i9onj587?svg=true)](https://ci.appveyor.com/project/n3okill/enfs)
-[![Codacy Badge](https://api.codacy.com/project/badge/grade/38d87560204a4c1abbb1299394ed08c5)](https://www.codacy.com/app/n3okill/enfs)
+[![AppVeyor status](https://ci.appveyor.com/api/projects/status/gex59qy31438c93d?svg=true)](https://ci.appveyor.com/project/n3okill/enfs-promise)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f845cc3a721f4f30b63e432eb00fc07e)](https://www.codacy.com/app/n3okill/enfs-promise)
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=64PYTCDH5UNZ6)
 
 [![NPM](https://nodei.co/npm/enfs-promise.png)](https://nodei.co/npm/enfs-promise/)
