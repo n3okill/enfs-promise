@@ -1,6 +1,6 @@
 {
   "name": "enfs-promise",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Extras suite for node fs module with promises",
   "license": "CC-BY-4.0",
   "author": {
