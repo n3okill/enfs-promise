@@ -1,0 +1,14 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "plugins": [
+    "mocha"
+  ],
+  "rules": {
+    "no-underscore-dangle": 0
+  }
+}

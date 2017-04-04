@@ -1,0 +1,39 @@
+/**
+ * Created by JParreir on 27-12-2015.
+ */
+
+"use strict";
+
+var nodePath = require("path"),
+    Mocha = require('mocha'),
+    enFs = require('../');
+
+var mocha, subModules;
+
+// Instantiate a Mocha instance.
+mocha = new Mocha({
+    ui: "tdd",
+    reporter: "spec"
+});
+
+
+subModules = ["enfspatch", "enfsmkdirp", "enfsensure", "enfscopy", "enfsmove", "enfsfind", "enfslist"];
+
+
+subModules.forEach(function(subModule) {
+// Add each .js file to the mocha instance
+    enFs.readdirSync(nodePath.join("node_modules", subModule, "test")).filter(function(file) {
+        // Only keep the .js files
+        return file.substr(-3) === ".js";
+    }).forEach(function(file) {
+        mocha.addFile(nodePath.join("node_modules", subModule, "test", file));
+    });
+});
+
+
+// Run the tests.
+mocha.run(function(failures) {
+    process.on('exit', function() {
+        process.exit(failures);
+    });
+});
